@@ -7,7 +7,7 @@
     <link href="/src/style.css" rel="stylesheet">
     <title>Liverpool.ac.clone</title>
 </head>
-<body class="bg-black text-white" style="font-family: Calibri, sans-serif;">
+<body class="bg-white text-white" style="font-family: Calibri, sans-serif;">
     <section class="sticky z-0 w-full h-48"><img src="img/7a087d13-bab0-4346-ae2c-2d624a37bcc1.webp" class="">
     </section><!--first background-->
 
@@ -15,7 +15,7 @@
         <div class="block pl-[4%] w-1/2">
             <div class="flex h-1/3">
                 <div class="h-50 w-50">
-                    <div class="block bg-white"><img src="/img/transLogo.svg" class="w-full h-full"></div><!--Univ logo-->
+                    <div class="block"><img src="/img/transLogo.svg" class="invert w-full h-full"></div><!--Univ logo-->
                 </div><!--Univ logo-->
             </div>
             <div>
@@ -61,39 +61,328 @@
             </div>
         </div>
     </section>
-    <navbar class="relative top-110 z-40 w-full h-38 text-white flex flex-col bg-blue-950">
-        <div class="flex flex-row items-center pt-7 space-x-5">
-            <div class="pl-[10%]">
-                <p class="text-[23px] font-bold">Find your course</p>
-            </div>
-            <div>
-                <input type="text" class="w-[650px] h-[55px] text-black border-1 border-white bg-white pl-5">
-            </div>
-            <div>
-                <button type="button" class="text-[25px] p-2 pl-4 pr-4 border-1 border-white outline outline-3 outline-blue-400">Search</button>
-            </div>
-            <div>
-                <p class="text-[19px] underline">Courses by A-Z</p>
-                <p class="text-[19px] underline">Courses by subject</p>
-            </div>
-        </div>
-        <div class="flex flex-row items-center space-x-7 pt-3 pl-[22%]">
-            <div class="flex flex-row items-center space-x-2">
-                <div class="border-4 border-white p-2 rounded-full"></div>
-                <p class="text-[20px]">Undergraduate</p>
-            </div>
-            <div class="flex flex-row items-center space-x-2">
-                <div class="border-4 border-white bg-white p-2 rounded-full"></div>
-                <p class="text-[20px]">Postgraduate taught</p>
-            </div>
-            <div class="flex flex-row items-center space-x-2">
-                <div class="border-4 border-white bg-white p-2 rounded-full"></div>
-                <p class="text-[20px]">Postgraduate research</p>
-            </div>
-        </div>
-    </navbar>
-    <section>
-        
+    <section class="relative top-120 z-40 w-full flex flex-col gap-0"><!--The blue.. and white section-->
+            <navbar class="relative w-full h-38 pl-10 pr-10 text-white flex flex-col bg-blue-950"><!--The blue section-->
+                <div class="flex flex-row items-center pt-7 space-x-5">
+                    <div class="pl-[10%]">
+                        <p class="text-[23px] font-bold">Find your course</p>
+                    </div>
+                    <div>
+                        <input type="text" class="w-[650px] h-[55px] text-black border-1 border-white bg-white pl-5">
+                    </div>
+                    <div>
+                        <button type="button" class="text-[25px] p-2 pl-4 pr-4 border-1 border-white outline outline-3 outline-blue-400">Search</button>
+                    </div>
+                    <div>
+                        <p class="text-[19px] underline">Courses by A-Z</p>
+                        <p class="text-[19px] underline">Courses by subject</p>
+                    </div>
+                </div>
+                <div class="flex flex-row items-center space-x-7 pt-3 pl-[22%]">
+                    <div class="flex flex-row items-center space-x-2">
+                        <div class="border-4 border-white p-2 rounded-full"></div>
+                        <p class="text-[20px]">Undergraduate</p>
+                    </div>
+                    <div class="flex flex-row items-center space-x-2">
+                        <div class="border-4 border-white bg-white p-2 rounded-full"></div>
+                        <p class="text-[20px]">Postgraduate taught</p>
+                    </div>
+                    <div class="flex flex-row items-center space-x-2">
+                        <div class="border-4 border-white bg-white p-2 rounded-full"></div>
+                        <p class="text-[20px]">Postgraduate research</p>
+                    </div>
+                </div>
+            </navbar>
+            <section class="relative w-full h-[600px] flex flex-col gap-0 pt-10 bg-white text-black">
+                <navbar class="flex flex-col pl-20 pr-20 bg-transparent text-gray-900"><!--The discover section-->
+                    <p class="text-[39px] font-bold">Discover the University of Liverpool</p>
+                    <div class="w-full h-100 flex flex-row gap-10 pt-7">
+                        <img src="/img//contact-us-VGM.jpeg" class="w-2/5 h-full">
+                        <div class="flex flex-col space-y-5">
+                            <div class="text-[25px]">
+                            <p>We are the Liverpool University. Located at the heart of a thriling world city,</p>
+                            <p>we are a dynamic institution of academic excellence and innovation, making</p>
+                            <p>positive impact accross the United Kingdom and the wider world</p>
+                            </div>
+                            <div class="text-[18px] text-gray-800">
+                                <p>Since 1881, we've been at the forefront of world class research and education, known for our</p>
+                                <p>cutting edge facilities and relentless pursuits of excellence and achievement. Find out how</p>
+                                <p>you can be part of our vibrant community and explore the work we're doing with our famous</p>
+                                <p>home city.</p>
+                            </div>
+                            <div class="flex flex-row space-x-5">
+                                <button type="button" class="border-1 p-3 pl-5 pr-6 border-black">Lean about us</button>
+                                <button type="button" class="border-1 p-3 pl-5 pr-6 border-black">Liverpool: our city, our inspiration</button>
+                            </div>
+                        </div>
+                    </div>
+                </navbar>
+
+                <navbar class="flex flex-row gap-0 pl-20 pr-20 h-150 pt-18 text-white"><!--The Study with us section-->
+                    <div class="w-2/3 bg-blue-950 p-8 pt-15">
+                        <p class="text-[35px] font-bold">Study with us</p>
+                        <div class="pt-5 text-[18px]">
+                            <p>Discover endless possibilities. We offer a range of courses with support and expertise to help you</p>
+                            <p>succed in your future career. Find your perfect course, explore our subject areas or discover</p>
+                            <p>everything you need to know abiut studying with us.</p>
+                        </div>
+                        <div class="pt-2 flex flex-row space-x-4 text-[19px] pt-6">
+                            <button class="border-1 p-3 pl-5 pr-6 border-white">Undergraduate</button>
+                            <button class="border-1 p-3 pl-5 pr-6 border-white">Master's </button>
+                            <button class="border-1 p-3 pl-5 pr-6 border-white">Postgraduate research</button>
+                        </div>
+                        <div class="flex flex-row space-x-4 text-[20px] pt-2 pb-5">
+                            <button class="border-1 p-3 pl-5 pr-6 border-white">Continuing professional Development</button>
+                            <button class="border-1 p-3 pl-5 pr-6 border-white">International Students</button>
+                        </div>
+                    </div>
+                    <img src="img/Two,students,working,on,campus.jpeg" class="w-2/5 center">
+                </navbar>
+                
+                <navbar class="bg-transparent pl-20 pr-20 pt-18"><!--The Pink setion-->
+                   <div class="flex flex-row h-45 text-white bg-red-400 space-x-20 items-center">
+                            <img src="img/fellow.svg" class="revert w-30 h-30 pl-10">
+                            <div class="text-[39px] font-bold flex flex-col justify-center items-center">
+                                <p>Undergraduate </p>
+                                <p>Open events</p>
+                            </div>
+                            <div class="text-[26px] flex flex-col justify-center items-center">
+                                <p>Meet us online at our undergraduate Online Open </p>
+                                <p>Week to find out more about studying a degree</p>
+                                <p>at Liverpool</p>
+                            </div>
+                            <div class="flex justify-center items-center">
+                                <button class="text-[18px] font-bold border-1 bg-blue-950 p-2 pl-5 pr-5 border-white">Book your place</p>
+                            </div>
+                   </div>           
+                </navbar>
+
+                <navbar class="pt-18 pl-20 pr-20"><!--University fellowships-->
+                    <div class="flex flex-row">
+                            <img src="img/build.undefined" class="w-1/2">
+                            <div class="w-1/2 flex flex-col space-y-5 bg-blue-950 text-white p-5 justify-center pl-15">
+                                <p class="text-[37px] font-bold">University of Liverpool Fellowships</p>
+                                <div class="text-[19px]">
+                                <p>Do you have an original and compelling vision for harnessing the power</p>
+                                <p>of AI research? Apply for our one research fellowships and bring it to</p>
+                                <p>life at Liverpool.</p>
+                                </div>
+                                <div class="flex flex-col justify-items-start">
+                                <button class = "text-[18px] w-[130px] border-1 p-3 pl-5 pr-6 border-white">Apply now</button>
+                                </div>
+                            </div> 
+                        </div>
+                </navbar>
+
+                <navbar class="pt-10 text-gray-700 bg-gray-200"><!--Ranking section-->
+                    <div class="">
+                       <p class="text-[35px] pl-20 font-bold">Our rankings and reputation</p> 
+                    </div>
+                    <div class="p-20 flex flex-row gap-5">
+                        <div class="w-1/2 flex flex-row p-20 pt-30 pb-10 space-x-7 bg-white justify-center"><!--Right side-->
+                            <img src="img/8c0d9c5f-b2d6-4369-ae64-202578fc6a3d.png" class="w-56 h-55">
+                            <div>
+                                <p class="text-[22px] pt-5 font-bold">World Top 150</p>
+                                <p class="text-[17px] pt-5">QS World Universiry rankings 2026</p>
+                                <p class="text-[17px]">places us in the top 150 global</p>
+                                <p class="text-[17px]">universities. We've moved up to</p>
+                                <p class="text-[17px]">147th place in the world, climbing 43</p>
+                                <p class="text-[17px]">from 165th in the 2025 rankings.</p>
+                            </div>
+                        </div>
+                        <div class="w-1/2 flex flex-col bg-transparent justify-center gap-3"><!--Right side-->
+                            <div class="w-full flex flex-row p-10 space-x-5 bg-white justify-center">
+                                <img src="img/300fc51e-d5d7-4802-8e6c-cfabaac16dad.png" class="w-1/6">
+                                <div>
+                                    <p class="text-[17px]">Our teaching is rated Gold, the highest level, by the</p>
+                                    <p class="text-[17px]">Teaching Excellence Framework.</p>
+                                </div>
+                            </div>
+                            <div class="w-full flex flex-row p-10 space-x-5 bg-white justify-center">
+                                <img src="img/c40df725-e45b-4f27-a20b-99ba03dd7d71.png" class="w-1/6">
+                                <div>
+                                    <p class="text-[17px]">We've climbed 5 places to 18th in The Times and The</p>
+                                    <p class="text-[17px]">Sunday Times Good University Guide 2026.</p>
+                                </div>
+                            </div>
+                            <div class="w-full flex flex-row p-10 space-x-5 bg-white justify-center">
+                                <img src="img/9b56d83b-7e81-4c00-9669-826eba50e2ff.png" class="w-1/6">
+                                <div>
+                                    <p>We’re ranked in the top 150 universities globally in the</p>
+                                    <p>Times Higher Education World University rankings.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pl-20 pb-13">
+                        <button class="text-[18px] border-1 p-3 pl-5 pr-6 border-black">Explore our rankings and reputation</button>
+                    </div>
+                </navbar>
+                <navbar class="pt-18 pl-20 pr-20"><!--India's Campus-->
+                    <div class="flex flex-row">
+                            <div class="w-4/6 flex flex-col space-y-5 bg-blue-950 text-white p-20 justify-center pl-15">
+                                <p class="text-[37px] font-bold">Discover Liverpool in India</p>
+                                <div class="text-[19px]">
+                                <p>Introducing our new campus in the city of Bengaluru, the centre of high-tech industry in India. Find</p>
+                                <p>out more about our new campus, which will strengthen existing partnerships, build new connections</p>
+                                <p>and bring our world-class teaching and research to India.</p>
+                                </div>
+                                <div class="flex flex-col justify-items-start">
+                                <button class = "text-[18px] w-[150px] border-1 p-3 pl-5 pr-6 border-white">Find out more</button>
+                                </div>
+                            </div> 
+                            <img src="img/India,campus,header(1).jpeg" class="w-2/6">
+                        </div>
+                </navbar>
+                <navbar class="pt-10 text-gray-700 bg-transparent">
+                    <div class="">
+                       <p class="text-[39px] pl-20 font-bold">Our research: Transforming lives, changing the world</p> <!--Our Research--> 
+                    </div>
+                    <div class="">
+                        <div class="w-full text-[25px] flex flex-col pt-10 pl-20 pr-20"><!--One side-->
+                                <p>Discover how our research is making a difference all over the world. As a founding member of the Russell Group, research is the driving force</p>
+                                <p>behind our success, tackling real-world challenges to have a positive impact on society and the world around us.</p>
+                        </div>
+                        <div class="w-full flex flex-row p-20 justify-center gap-6">
+                            <div class="w-full flex flex-col bg-white justify-center border-t-1 border-gray-500">
+                                <div>
+                                    <p class="text-[27px] text-blue-950 font-bold underline pb-5">Research frontiers</p>
+                                    <p class="text-[20px]">Learn more about our research frontiers and</p>
+                                    <p class="text-[20px]">how we're driving innovation in materials</p>
+                                    <p class="text-[20px]">discovery, particle physics, therapeutics</p>
+                                    <p class="text-[20px]">  innovation, AI for life, and infection resilience to</p>
+                                    <p class="text-[20px]"> to build a better future.</p>
+                                </div>
+                            </div>
+                            <div class="w-full flex flex-col pt-5 bg-white justify-center border-t-1 border-gray-500">
+                                <div>
+                                    <p class="text-[27px] text-blue-950 font-bold underline">Interdisciplinary center for </p>
+                                    <p class="text-[27px] text-blue-950 font-bold underline pb-5">Sustainability research</p>
+                                    <p class="text-[20px]">Explore our new Interdisciplinary Centre for </p>
+                                    <p class="text-[20px]">Sustainability Research and find out how we're</p>
+                                    <p class="text-[20px]"> utilising a variety of skills and knowledge to find</p>
+                                    <p class="text-[20px]">new developments in sustainability research.</p>
+                                </div>
+                            </div>
+                            <div class="w-full flex flex-col pt-5 border-t-1 border-gray-500 bg-white items-center">
+                                <div>
+                                    <p class="text-[27px] text-blue-950 font-bold underline pb-5">Our Impact</p>
+                                    <p class="text-[20px]">91% of our research is ranked world leading or </p>
+                                    <p class="text-[20px]">internationally excellent (REF 2021). Find out how</p>
+                                    <p class="text-[20px]">our researchers are improving the world we live</p>
+                                    <p class="text-[20px]">in every day.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pl-20 pb-13">
+                        <button class="text-[18px] border-1 p-3 pl-5 pr-6 border-black">Explore our research</button>
+                    </div>
+                </navbar>
+
+                <navbar class="flex flex-row pl-20 pr-20 h-150 pt-5 text-gray-800"><!--The Discover a vibrant student life section-->
+                    <img src="img/student-life,(3),(1).jpeg" class="w-1/3 center">
+                    <div class="w-2/3 bg-gray-150 p-15 pt-15">
+                        <div class="pt-5 text-[18px]">
+                            <p class="text-[35px] font-bold pb-5">Discover a vibrant student life in Liverpool</p>
+                            <p>Enjoy a fantastic student experience when you study with us. Explore the Guild of Students,</p>
+                            <p>learn more about what’s happening in our amazing home city and discover your</p>
+                            <p>accommodation options.</p>
+                        </div>
+                        <div class="pt-2 flex flex-row space-x-4 text-[19px] pt-6">
+                            <button class="border-1 p-3 pl-5 pr-6 border-black">Student life at Liverpool</button>
+                            <button class="border-1 p-3 pl-5 pr-6 border-black">Why choose Liverpool?</button>
+                            <button class="border-1 p-3 pl-5 pr-6 border-black">Find your accommodation</button>
+                        </div>
+                    </div>
+                </navbar>
+                <navbar class="flex flex-row gap-0 pl-20 pr-20 h-150 pt-18 text-white"><!--The Making an impact section-->
+                    <div class="w-2/3 bg-blue-950 pt-15 pb-10 pl-20 pr-20 flex flex-col justify-center">
+                        <p class="text-[35px] pb-3 font-bold">We're making an impact across the globe</p>
+                        <div class="pt-5 pb-3 text-[20px]">
+                            <p>We’re proud to be part of a global community, where collaboration drives our success and impact across the world. Find out more about our commitment to global engagement and how we’re making a difference to the world.</p>
+                        </div>
+                        <div class="flex flex-row space-x-4 text-[20px]">
+                            <button class="border-1 p-3 pl-5 pr-6 border-white">Explore our global partnerships</button>
+                            <button class="border-1 p-3 pl-5 pr-6 border-white">Work with us</button>
+                        </div>
+                    </div>
+                    <img src="img/global-cropped,(1).jpeg" class="w-1/3 center">
+                </navbar>
+
+                <navbar class="pt-10 text-gray-700 bg-gray-100"><!--Latest News section-->
+                    <div class="">
+                       <p class="text-[35px] pl-20 font-bold">Latest News</p> 
+                    </div>
+                    <div class="p-5 flex flex-row gap-5">
+                        <div class="w-1/2 flex flex-row p-10 pr-20 pl-20 space-x-5 bg-white justify-center"><!--Right side-->
+                            <img src="img/mutupu.png" class="w-85 h-77">
+                            <div>
+                                <p class="text-[22px] pt-2">24 October 2025</p>
+                                <p class="text-[22px] pt-2 font-bold underline"> A University of Liverpool PhD student creates AI art for River of Light festival</p>
+                                <p class="text-[17px]">A University of Liverpool PhD student is bringing her expertise in robotics and coding to this year’s River of Light festival.</p>
+                            </div>
+                        </div>
+                        <div class="w-1/2 flex flex-col bg-transparent justify-center gap-3"><!--Right side-->
+                            <div class="w-full flex flex-row p-3 pl-7 space-x-5 bg-white justify-center">
+                                <div>
+                                    <p class="text-[22px] pt-2">24 October 2025</p>
+                                    <p class="text-[22px] pt-2 font-bold underline">University of Liverpool Research Fellowships open for applications for 2025-2026</p>
+                                </div>
+                            </div>
+                            <div class="w-full flex flex-row p-3 pl-7 space-x-5 bg-white justify-center">
+                                <div>
+                                    <p class="text-[22px] pt-2">22 October 2025</p>
+                                    <p class="text-[22px] pt-2 font-bold underline">Heseltine Institute Annual Lecture celebrates significance of football for Liverpool and its future</p>
+                                </div>
+                            </div>
+                            <div class="w-full flex flex-row p-3 pl-7 space-x-3 bg-white justify-center">
+                                <div>
+                                    <p class="text-[22px] pt-2">17 October 2025</p>
+                                    <p class="text-[22px] pt-2 font-bold underline">University celebrates Liverpool’s shortlisting for European Capital of Innovation 2026</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pl-20 pb-13">
+                        <button class="text-[18px] border-1 p-3 pl-5 pr-6 border-black">Read more news</button>
+                    </div>
+                </navbar>
+
+                <navbar class="pt-10 text-gray-700 bg-gray-100"><!--Latest Events section-->
+                    <div class="">
+                       <p class="text-[35px] pl-20 font-bold">Latest Events</p> 
+                    </div>
+                    <div class="p-5 flex flex-row gap-5">
+                        <div class="w-1/2 flex flex-row p-10 pr-20 pl-20 space-x-5 bg-white justify-center"><!--Right side-->
+                            <img src="img/mutupu.png" class="w-85 h-77">
+                            <div>
+                                <p class="text-[22px] pt-2">24 October 2025</p>
+                                <p class="text-[22px] pt-2 font-bold underline"> A University of Liverpool PhD student creates AI art for River of Light festival</p>
+                                <p class="text-[17px]">A University of Liverpool PhD student is bringing her expertise in robotics and coding to this year’s River of Light festival.</p>
+                            </div>
+                        </div>
+                        <div class="w-1/2 flex flex-col bg-transparent justify-center gap-3"><!--Right side-->
+                            <div class="w-full flex flex-row p-3 pl-7 space-x-5 bg-white justify-center">
+                                <div>
+                                    <p class="text-[22px] pt-2">24 October 2025</p>
+                                    <p class="text-[22px] pt-2 font-bold underline">University of Liverpool Research Fellowships open for applications for 2025-2026</p>
+                                </div>
+                            </div>
+                            <div class="w-full flex flex-row p-3 pl-7 space-x-5 bg-white justify-center">
+                                <div>
+                                    <p class="text-[22px] pt-2">22 October 2025</p>
+                                    <p class="text-[22px] pt-2 font-bold underline">Heseltine Institute Annual Lecture celebrates significance of football for Liverpool and its future</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pl-20 pb-13">
+                        <button class="text-[18px] border-1 p-3 pl-5 pr-6 border-black">Read more news</button>
+                    </div>
+                </navbar>
+            </section>
     </section>
 </body>
 </html>
